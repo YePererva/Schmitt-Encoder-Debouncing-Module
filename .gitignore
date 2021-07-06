@@ -25,3 +25,4 @@ _autosave-*
 *.csv
 
 project_files/*-backups
+project_files/fp-info-cache
