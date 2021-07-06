@@ -8,11 +8,12 @@ This module uses 74xx14 Schmitt inverting trigger to debounce incremental rotary
 The schematic in this module uses 74xx14 connected as buffer/repeater, according to 74xx14 [datasheet (Rev. J)](datasheets/sn74hc14(rev.j).pdf) from Texas Instruments (Figure 5 in Chapter 9.2: Typical Application). Later revisions don't have this circuit specified in datasheet.
 
 ## Why to bother?
-I wanted to have a module for EC11 rotary encoder with push-button which:
+I wanted to have a module for EC11 rotary encoder with push-button with some requirements:
 - contains a built-in debouncing circuitry (both encoder and button)
 - has symmetrical location of pin headers
 - includes a few mounting holes for M2.5 screws
 - utilizes SMD components and their single-side location (except of the encoder itself)
+- the center of module matches the center of encoder rotation axis
 
 ## Dimensions and layout
 
