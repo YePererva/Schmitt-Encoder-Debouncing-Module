@@ -1665,10 +1665,10 @@
   (symbol (lib_id "Device:RotaryEncoder_Switch") (at 43.18 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b5f62f87-5584-413e-b908-068a59646f4c)
-    (property "Reference" "SW1" (id 0) (at 49.53 65.4049 90)
+    (property "Reference" "SW1" (id 0) (at 49.0221 65.2791 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "RotaryEncoder_Switch" (id 1) (at 49.53 67.9449 90)
+    (property "Value" "EC11" (id 1) (at 49.0221 67.5778 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" (id 2) (at 39.116 69.85 0)
@@ -1817,7 +1817,7 @@
       (reference "R6") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/b5f62f87-5584-413e-b908-068a59646f4c"
-      (reference "SW1") (unit 1) (value "RotaryEncoder_Switch") (footprint "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm")
+      (reference "SW1") (unit 1) (value "EC11") (footprint "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm")
     )
     (path "/9ef1eca2-35f4-462a-bf5a-1219784aabb0"
       (reference "U1") (unit 1) (value "74HC14") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
