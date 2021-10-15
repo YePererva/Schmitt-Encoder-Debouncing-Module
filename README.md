@@ -1,7 +1,7 @@
 # Schmitt Encoder Debouncing Module
  Module to debounce incremental rotary encoder with Schmitt trigger
 
- Current Status: Work In Progress
+ Current Status: Layout finished, need to solder and test the hardware
 
 This module uses 74xx14 Schmitt inverting trigger to debounce incremental rotary encoder.
 
