@@ -1,4 +1,4 @@
-# Schmitt Encoder Debouncing Module
+# Rotary Encoder module with Hardware Debouncing
  Module to debounce incremental rotary encoder with Schmitt trigger
 
  Current Status: Layout finished, need to solder and test the hardware
